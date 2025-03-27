@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleL.css">
+</head>
+
+<body>
+    <header class="options">
+        <ul>
+            <img class="default" src="/img/logo.png" alt="logopadrao">
+            <img class="responsive" src="/img/logoblack.png" alt="logoresponsivo">
+            
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="atrcoes.html">ATRAÇÕES</a></li>
+            <li><a href="quemsomos.html">QUEM SOMOS?</a></li>
+            <li><a href="parcerias.html">PARCERIAS</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </header>
+
+<section class="cadastro">
+    <h1>Cadastre-se :</h1>
+    <section class="senha">
+
+        <input type="text" id="email" oninput="validaemail()" placeholder="email" required>
+        <p id="validaemail"></p>
+        <input type="password" id="senha" placeholder="senha" required>
+        <p id="validasenha"></p>
+        <button onclick="cadastro()"> Cadastre-se</button>
+    </section>
+
+    <script src="/js/script.js"></script>
+</section>
+</body>
